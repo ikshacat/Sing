@@ -1,0 +1,12 @@
+movielist=["The Shawshank Redemption",
+           "The Godfather",
+           "The Dark Knight",
+           "12 Angry Men",
+           "Schindler's List",
+           "The Lord of the Rings: The Return of the King",
+           "Pulp Fiction",
+           "Fight Club"]
+print(movielist)
+f = open('movies.txt','w')
+print(movielist, file = f)
+f.close()
